@@ -14,7 +14,7 @@ public class Principal {
         String nombreCiudad = scanner.nextLine();
         System.out.println("Buscando ciudad");
 
-        String apiKey = "10b2a7f84745734bbc3aab9110eb2c6f";
+        String apiKey = "123456789";
 
         // Construye la URL
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + nombreCiudad +
